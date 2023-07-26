@@ -5,10 +5,10 @@ export const ImagesBlock = () => {
     <div className={styles.container}>
       <div className={styles.firstImage}></div>
       <div className={styles.buttons}>
-        <button className={styles.firstButton}>
+        <button type="button" className={styles.firstButton}>
           Презентация ЖК Knightsbridge Private Рark
         </button>
-        <button className={styles.secondButton}>
+        <button type="button" className={styles.secondButton}>
           Типы планировок апартаментов
         </button>
       </div>

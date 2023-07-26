@@ -1,0 +1,49 @@
+.map {
+  background-image: url("../../../../public/images/map.png");
+  width: 930px;
+  height: 450px;
+  position: relative;
+}
+
+.pin {
+  position: absolute;
+  width: 78px;
+  height: 93px;
+}
+
+.activePin {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.saffariPin {
+  background-image: url("../../../../public/images/pins/saffari.png");
+  width: 74px;
+  height: 89px;
+  position: absolute;
+  top: 157px;
+  left: 388px;
+}
+
+.hospital {
+  background-image: url("../../../../public/images/pins/hospital.png");
+}
+
+.baby {
+  background-image: url("../../../../public/images/pins/baby.png");
+}
+.cart {
+  background-image: url("../../../../public/images/pins/cart.png");
+}
+.mortarboard {
+  background-image: url("../../../../public/images/pins/mortarboard.png");
+}
+.lipstick {
+  background-image: url("../../../../public/images/pins/lipstick.png");
+}
+.cup {
+  background-image: url("../../../../public/images/pins/cup.png");
+}
+.cinema {
+  background-image: url("../../../../public/images/pins/cinema.png");
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "value": "baby",
+    "left": "482px",
+    "top": "162px",
+    "id": 1,
+    "group": ["3", "4"],
+    "name": "Детский сад: босс молокосос"
+  },
+  {
+    "value": "baby",
+    "left": "639px",
+    "top": "35px",
+    "id": 2,
+    "group": ["3", "4"],
+    "name": "Детский сад: бейби"
+  },
+  {
+    "value": "baby",
+    "left": "507px",
+    "top": "64px",
+    "id": 3,
+    "group": ["3", "4"],
+    "name": "Детский сад: X Æ A-12"
+  },
+  {
+    "value": "lipstick",
+    "left": "248px",
+    "top": "238px",
+    "id": 4,
+    "group": ["1", "2"],
+    "name": "Салон красоты: Дензел Вашингтон"
+  },
+  {
+    "value": "hospital",
+    "left": "426px",
+    "top": "123px",
+    "id": 5,
+    "group": ["1"],
+    "name": "Больница имени доктора Хауса"
+  },
+  {
+    "value": "hospital",
+    "left": "482px",
+    "top": "353px",
+    "id": 6,
+    "group": ["1"],
+    "name": "Госпиталь Алхемилла"
+  },
+  {
+    "value": "cup",
+    "left": "160px",
+    "top": "68px",
+    "id": 7,
+    "group": ["2", "5"],
+    "name": "Бар 312"
+  },
+  {
+    "value": "cup",
+    "left": "573px",
+    "top": "143px",
+    "id": 8,
+    "group": ["2", "5"],
+    "name": "Кофейня окна"
+  },
+  {
+    "value": "cup",
+    "left": "600px",
+    "top": "325px",
+    "id": 9,
+    "group": ["2", "5"],
+    "name": "Ресторан Gucci"
+  },
+  {
+    "value": "mortarboard",
+    "left": "103px",
+    "top": "202px",
+    "id": 10,
+    "group": ["3"],
+    "name": "Ресторан Gucci"
+  },
+  {
+    "value": "mortarboard",
+    "left": "793px",
+    "top": "249px",
+    "id": 11,
+    "group": ["3"],
+    "name": "университет имени аль-Фараби"
+  },
+  {
+    "value": "cinema",
+    "left": "191px",
+    "top": "178px",
+    "id": 12,
+    "group": ["5"],
+    "name": "кинотеатр матрица"
+  },
+  {
+    "value": "cart",
+    "left": "113px",
+    "top": "126px",
+    "id": 13,
+    "group": ["1", "2"],
+    "name": "супермаркет корзинка"
+  },
+  {
+    "value": "cart",
+    "left": "333px",
+    "top": "85px",
+    "id": 14,
+    "group": ["1", "2"],
+    "name": "супермаркет чижик"
+  },
+  {
+    "value": "cart",
+    "left": "690px",
+    "top": "280px",
+    "id": 15,
+    "group": ["1", "2"],
+    "name": "супермаркет 'у биба'"
+  },
+  {
+    "value": "cart",
+    "left": "446px",
+    "top": "37px",
+    "id": 16,
+    "group": ["1", "2"],
+    "name": "супермаркет 'у боба'"
+  }
+]
