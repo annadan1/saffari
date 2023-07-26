@@ -5,21 +5,18 @@
   src: url("../../public/fonts/Baron\ Neue.otf");
 }
 
-body {
-  margin: 0px;
-}
-
-h1 {
-  font-family: "Baron Neue";
-  font-size: 36px;
-  line-height: 44px;
-}
-
 li {
   list-style-type: none;
 }
 
-ul {
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li {
   margin: 0;
   padding: 0;
 }
