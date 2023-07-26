@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Baron Neue";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../public/fonts/Baron\ Neue.otf");
+}
+
+body {
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Baron Neue";
+  font-size: 36px;
+  line-height: 44px;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}

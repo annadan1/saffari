@@ -1,0 +1,24 @@
+@import "../../styles/variables";
+
+.container {
+  height: 720px;
+  margin-top: 80px;
+  position: relative;
+}
+
+.background {
+  width: 100%;
+  height: 494px;
+  background-color: #f4f5f5;
+  & .content {
+    padding: 70px 120px 74px;
+    display: flex;
+  }
+}
+
+h1 {
+  margin-left: 120px;
+  margin-bottom: 60px;
+  width: 527px;
+  color: $color-grey-1;
+}

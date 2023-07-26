@@ -1,0 +1,57 @@
+@import "../../../styles/variables";
+
+.container {
+  position: absolute;
+  width: 615px;
+  height: 872px;
+  right: 0;
+  top: 0;
+}
+
+.firstImage {
+  background-image: url("../../../../public/images/Zaglushka.png");
+  width: 615px;
+  height: 480px;
+}
+
+.buttons {
+  margin-right: 120px;
+  margin-top: 30px;
+  gap: 31px;
+  display: flex;
+  & button {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    width: 232px;
+    height: 210px;
+    color: $color-neutral-white;
+    cursor: pointer;
+  }
+}
+
+.firstButton {
+  padding: 0 25px;
+  padding-top: 117px;
+  background-image: url("../../.././../public/images/Rectangle.png");
+  &:hover {
+    opacity: 0.9;
+    font-size: 18px;
+    transition-duration: 1s;
+  }
+}
+
+.secondButton {
+  padding: 0 25px;
+  padding-top: 127px;
+  background-image: url("../../.././../public/images/Rectangle1.png");
+  &:hover {
+    opacity: 0.9;
+    font-size: 18px;
+    transition-duration: 1s;
+  }
+}
