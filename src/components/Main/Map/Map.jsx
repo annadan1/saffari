@@ -13,7 +13,11 @@ export const Map = ({ activeButton }) => {
         const className = `${styles.pin} ${styles[pin.value]} ${
           pin.group.includes(activeButton) ? styles.activePin : ""
         }`;
-        return <p style={style} className={className}></p>;
+        return (
+          <p style={style} className={className}>
+            <p className={styles.textBlock}>{pin.name}</p>
+          </p>
+        );
       })}
     </div>
   );
