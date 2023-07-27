@@ -1,0 +1,67 @@
+@import "../../../../styles/variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.number {
+  color: $color-primery-bardo;
+  font-family: "Baron Neue";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  opacity: 0.10000000149011612;
+  overflow: hidden;
+}
+
+.content {
+  position: absolute;
+  background: white;
+  padding-top: 20px;
+  padding-left: 1px;
+  top: 52%;
+  margin-left: 6px;
+}
+
+.title {
+  color: #08131f;
+  font-family: "Baron Neue";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.text {
+  margin-top: 16px;
+  color: $color-grey-1;
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  height: 72px;
+}
+
+.button {
+  margin-top: 25px;
+  display: flex;
+  padding: 0;
+  border: none;
+  background: none;
+  color: $color-primery-bardo;
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  &:hover {
+    cursor: pointer;
+    color: $color-primery-bardo-hover;
+  }
+}

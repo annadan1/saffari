@@ -1,0 +1,28 @@
+@import '../../../styles/variables';
+
+.buttons {
+    margin-right: 140px;
+    width: 50px;
+    gap: 30.18px;
+    display: flex;
+    & button {
+      height: 16px;
+      background: none;
+      background-repeat: no-repeat;
+      border: none;
+      & svg {
+        fill: $color-primery-bardo;
+        stroke-width: 1px;
+        stroke: $color-primery-bardo;
+      }
+      &:hover {
+        cursor: pointer;
+        & svg {
+          fill: $color-primery-bardo-hover;
+          stroke-width: 1px;
+          stroke: $color-primery-bardo-hover;
+        }
+      }
+    }
+  }
+  

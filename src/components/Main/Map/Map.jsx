@@ -1,5 +1,5 @@
 import styles from "./Map.module.scss";
-import pins from "../../../data/data.json";
+import pins from "../../../assets/pins.json";
 
 export const Map = ({ activeButton }) => {
   return (
@@ -14,8 +14,8 @@ export const Map = ({ activeButton }) => {
           pin.group.includes(activeButton) ? styles.activePin : ""
         }`;
         return (
-          <p style={style} className={className}>
-            <p className={styles.textBlock}>{pin.name}</p>
+          <p style={style} className={className} key={pin.id}>
+            <span className={styles.textBlock}>{pin.name}</span>
           </p>
         );
       })}
