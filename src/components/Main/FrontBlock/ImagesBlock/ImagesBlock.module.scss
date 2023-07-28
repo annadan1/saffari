@@ -10,14 +10,28 @@
   @media screen and (max-width: 1360px) {
     width: 500px;
   }
+  @media screen and (max-width: 1200px) {
+    height: 1121px;
+    background-repeat: no-repeat;
+    top: 460px;
+    margin-left: 100px;
+    left: 0;
+    width: 90%;
+  }
+  @media screen and (max-width: 1000px) {
+    margin-left: 80px;
+  }
+  @media screen and (max-width: 800px) {
+    margin-left: 40px;
+  }
 }
 
 .container__firstImage {
+  background-color: #484848;
+  background-position: right;
+  background-repeat: no-repeat;
   background-image: url("../../../../../public/images/Zaglushka.png");
   height: 480px;
-  object-fit: fill;
-  @media screen and (max-width: 1200px) {
-  }
 }
 
 .container__buttons {

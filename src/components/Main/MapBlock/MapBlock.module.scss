@@ -3,6 +3,10 @@
 .container {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+  }
 }
 
 h2 {
@@ -22,6 +26,7 @@ h2 {
 .buttonsBlock__buttons {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 16px;
   align-items: flex-start;
   margin-top: 40px;
