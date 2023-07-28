@@ -1,5 +1,14 @@
 .slider {
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  @media screen and (max-width: 1360px) {
+    gap: 80px;
+  }
+  @media screen and (max-width: 1000px) {
+    gap: 68px;
+  }
+  @media screen and (max-width: 800px) {
+    gap: 48px;
+  }
 }

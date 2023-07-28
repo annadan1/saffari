@@ -7,6 +7,10 @@
   @media screen and (max-width: 1360px) {
     width: 800px;
   }
+  @media screen and (max-width: 1200px) {
+    width: 100%;
+    background-repeat: no-repeat;
+  }
 }
 
 .pin {

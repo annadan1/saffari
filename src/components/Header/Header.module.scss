@@ -5,30 +5,49 @@
   margin-top: 80px;
   position: relative;
   margin-bottom: 201px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
 }
 
 .container__background {
   width: 100%;
   height: 494px;
   background-color: #f4f5f5;
-  & .container__background__content {
-    padding: 70px 120px 74px;
+  position: absolute;
+  bottom: 49px;
+  z-index: -1;
+}
+
+.container__content {
+  padding: 0 120px;
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: 1360px) {
+    padding-left: 100px;
+  }
+  @media screen and (max-width: 1000px) {
+    padding-left: 80px;
+  }
+  @media screen and (max-width: 1000px) {
+    padding-left: 40px;
+  }
+  & .container__content__about {
     display: flex;
-    @media screen and (max-width: 1360px) {
-      padding-left: 100px;
-    }
   }
 }
 
 h1 {
-  margin-left: 120px;
-  margin-bottom: 60px;
+  margin-bottom: 130px;
   width: 527px;
   color: $color-grey-1;
   font-family: "Baron Neue";
   font-size: 36px;
   line-height: 44px;
-  @media screen and (max-width: 1360px) {
-    margin-left: 100px;
+  & span {
+    display: none;
+    @media screen and (max-width: 1000px) {
+      display: contents;
+    }
   }
 }

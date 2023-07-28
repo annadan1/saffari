@@ -1,11 +1,9 @@
 @import "../../../styles/variables";
 
 .container {
-  position: absolute;
   width: 615px;
   height: 872px;
-  right: 0;
-  top: 0;
+  margin-right: 0;
   @media screen and (max-width: 1360px) {
     width: 500px;
   }
@@ -24,6 +22,12 @@
   display: flex;
   @media screen and (max-width: 1360px) {
     margin-right: 100px;
+  }
+  @media screen and (max-width: 1000px) {
+    margin-right: 80px;
+  }
+  @media screen and (max-width: 1000px) {
+    margin-right: 40px;
   }
   & button {
     font-family: Lato;
