@@ -1,0 +1,47 @@
+@import "../../../styles/variables";
+
+.container {
+  padding-top: 70px;
+  height: 494px;
+  margin-bottom: 201px;
+  @media screen and (max-width: 1360px) {
+    gap: 53px;
+  }
+  @media screen and (max-width: 1200px) {
+    padding-right: 113px;
+    height: 1121px;
+  }
+  @media screen and (max-width: 1000px) {
+    padding-right: 80px;
+  }
+  @media screen and (max-width: 800px) {
+    padding-right: 40px;
+  }
+}
+
+.container__background {
+  height: 494px;
+  background-color: #f4f5f5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  //   @media screen and (max-width: 1200px) {
+  //     height: 1121px;
+  //   }
+}
+
+.container__content {
+  display: flex;
+  gap: 60px;
+  @media screen and (max-width: 1360px) {
+    gap: 50px;
+  }
+  @media screen and (max-width: 1000px) {
+    gap: 120px;
+  }
+  @media screen and (max-width: 800px) {
+    gap: 117px;
+  }
+}

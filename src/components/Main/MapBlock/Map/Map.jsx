@@ -1,5 +1,5 @@
 import styles from "./Map.module.scss";
-import pins from "../../../assets/pins.json";
+import pins from "../../../../assets/pins.json";
 
 export const Map = ({ activeButton }) => {
   return (

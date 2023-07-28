@@ -1,0 +1,59 @@
+@import "../../../styles/variables";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  color: $color-grey-1;
+  font-family: "Baron Neue";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.buttonsBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonsBlock__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  margin-top: 40px;
+  @media screen and (max-width: 1200px) {
+    flex-direction: row;
+  }
+
+  & button {
+    cursor: pointer;
+    display: flex;
+    height: 30px;
+    padding: 0 16px 0 20px;
+    border-radius: 20px;
+    border: 1px solid rgba($color-primery-purple, 0.30000001192092896);
+    background: none;
+    color: $color-neutral-black;
+    font-family: Lato;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    align-items: center;
+    gap: 2px;
+    & p {
+      color: $color-primery-bardo;
+      font-weight: 700;
+      line-height: 26px;
+      width: 18px;
+    }
+  }
+
+  & .activeButton {
+    background: rgba($color-primery-purple, 0.20000001192092896);
+  }
+}

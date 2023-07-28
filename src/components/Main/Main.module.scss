@@ -1,74 +1,18 @@
 @import "../../styles/variables";
 
-h2 {
-  color: $color-grey-1;
-  font-family: "Baron Neue";
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 44px;
-}
-
 .container {
-  margin: 0 120px;
-  height: 450px;
+  padding: 0 120px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+
   @media screen and (max-width: 1360px) {
-    margin: 0 100px;
-  }
-  @media screen and (max-width: 1200px) {
-    height: 600px;
-    flex-direction: column;
+    padding: 0 100px;
   }
   @media screen and (max-width: 1000px) {
-    margin: 0 80px;
+    padding: 0 80px;
   }
   @media screen and (max-width: 1000px) {
-    margin: 0 40px;
-  }
-}
-
-.container__buttonsBlock {
-  display: flex;
-  flex-direction: column;
-}
-
-.container__buttonsBlock__buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  align-items: flex-start;
-  margin-top: 40px;
-  @media screen and (max-width: 1200px) {
-    flex-direction: row;
-  }
-
-  & button {
-    cursor: pointer;
-    display: flex;
-    height: 30px;
-    padding: 0 16px 0 20px;
-    border-radius: 20px;
-    border: 1px solid rgba($color-primery-purple, 0.30000001192092896);
-    background: none;
-    color: $color-neutral-black;
-    font-family: Lato;
-    font-size: 11px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 36px;
-    align-items: center;
-    gap: 2px;
-    & p {
-      color: $color-primery-bardo;
-      font-weight: 700;
-      line-height: 26px;
-      width: 18px;
-    }
-  }
-
-  & .activeButton {
-    background: rgba($color-primery-purple, 0.20000001192092896);
+    padding: 0 40px;
   }
 }
