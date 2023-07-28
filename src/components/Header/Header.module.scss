@@ -7,13 +7,16 @@
   margin-bottom: 201px;
 }
 
-.background {
+.container__background {
   width: 100%;
   height: 494px;
   background-color: #f4f5f5;
-  & .content {
+  & .container__background__content {
     padding: 70px 120px 74px;
     display: flex;
+    @media screen and (max-width: 1360px) {
+      padding-left: 100px;
+    }
   }
 }
 
@@ -25,4 +28,7 @@ h1 {
   font-family: "Baron Neue";
   font-size: 36px;
   line-height: 44px;
+  @media screen and (max-width: 1360px) {
+    margin-left: 100px;
+  }
 }

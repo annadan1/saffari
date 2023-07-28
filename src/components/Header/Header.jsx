@@ -7,8 +7,8 @@ export const Header = () => {
   return (
     <header className={styles.container}>
       <h1>Knightsbridge private park – элитный район Лондона в центре</h1>
-      <div className={styles.background}>
-        <div className={styles.content}>
+      <div className={styles.container__background}>
+        <div className={styles.container__background__content}>
           <AboutUsInNumbers />
           <AboutUs />
         </div>

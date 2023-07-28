@@ -3,6 +3,10 @@
   width: 930px;
   height: 450px;
   position: relative;
+  overflow: hidden;
+  @media screen and (max-width: 1360px) {
+    width: 800px;
+  }
 }
 
 .pin {

@@ -11,9 +11,9 @@ export const Main = () => {
 
   return (
     <main className={styles.container}>
-      <div className={styles.buttonsBlock} onMouseMove={handleMouse}>
+      <div className={styles.container__buttonsBlock} onMouseMove={handleMouse}>
         <h2>на карте</h2>
-        <div className={styles.buttons}>
+        <div className={styles.container__buttonsBlock__buttons}>
           <button
             type="button"
             className={activeButton === "1" ? styles.activeButton : null}

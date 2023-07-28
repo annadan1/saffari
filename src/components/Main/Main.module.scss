@@ -14,14 +14,18 @@ h2 {
   height: 450px;
   display: flex;
   justify-content: space-between;
+  @media screen and (max-width: 1360px) {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 }
 
-.buttonsBlock {
+.container__buttonsBlock {
   display: flex;
   flex-direction: column;
 }
 
-.buttons {
+.container__buttonsBlock__buttons {
   display: flex;
   flex-direction: column;
   gap: 16px;

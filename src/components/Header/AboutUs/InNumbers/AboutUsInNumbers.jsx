@@ -4,20 +4,20 @@ export const AboutUsInNumbers = () => {
     <div className={styles.about}>
       <ul>
         <li>
-          <span className={styles.title}>156 - 636 м2</span>
-          <span className={styles.text}>Площадь квартир</span>
+          <span className={styles.about__title}>156 - 636 м2</span>
+          <span className={styles.about__text}>Площадь квартир</span>
         </li>
         <li>
-          <span className={styles.title}>475</span>
-          <span className={styles.text}>Парковочных мест</span>
+          <span className={styles.about__title}>475</span>
+          <span className={styles.about__text}>Парковочных мест</span>
         </li>
         <li>
-          <span className={styles.title}>10 мин</span>
-          <span className={styles.text}>До метро Фрунзенская</span>
+          <span className={styles.about__title}>10 мин</span>
+          <span className={styles.about__text}>До метро Фрунзенская</span>
         </li>
         <li>
-          <span className={styles.title}>2 га</span>
-          <span className={styles.text}>Площадь собственного парка</span>
+          <span className={styles.about__title}>2 га</span>
+          <span className={styles.about__text}>Площадь собственного парка</span>
         </li>
       </ul>
     </div>
