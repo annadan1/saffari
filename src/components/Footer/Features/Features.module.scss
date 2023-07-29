@@ -1,9 +1,9 @@
 .slider {
   display: flex;
   flex-direction: row;
-  gap: 100px;
+  gap: 108px;
   @media screen and (max-width: 1360px) {
-    gap: 80px;
+    gap: 88px;
   }
   @media screen and (max-width: 1000px) {
     gap: 68px;
