@@ -1,12 +1,12 @@
 import { FrontBlock } from "./FrontBlock/FrontBlock";
 import styles from "./Main.module.scss";
-import { MapBlock } from "./MapBlock/MapBlock";
+import { SecondBlock } from "./SecondBlock/SecondBlock";
 
 export const Main = () => {
   return (
     <main className={styles.container}>
       <FrontBlock/>
-      <MapBlock />
+      <SecondBlock />
     </main>
   );
 };

@@ -20,22 +20,30 @@
 
 .container__firstImage {
   background-color: #484848;
-  background-position: right;
+  background-position: right bottom;
   background-repeat: no-repeat;
   background-image: url("../../../../../public/images/Zaglushka.png");
   height: 480px;
+  @media (max-width: 600px) {
+    background-size: contain;
+    height: 337px;
+  }
 }
 
 .container__buttons {
   margin-right: 120px;
   margin-top: 30px;
-  gap: 31px;
+  gap: 30px;
   display: flex;
   @media screen and (max-width: 1360px) {
     margin-right: 80px;
   }
   @media screen and (max-width: 800px) {
     margin-right: 40px;
+  }
+  @media (max-width: 600px) {
+    gap: 14px;
+    margin-right: 0;
   }
   & button {
     font-family: Lato;

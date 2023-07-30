@@ -1,13 +1,14 @@
-import styles from "./MapBlock.module.scss";
+import styles from "./SecondBlock.module.scss";
 import { useState } from "react";
-import { Map } from "./Map/Map";
+import { MapBlock } from "./MapBlock/MapBlock";
 
-export const MapBlock = () => {
+export const SecondBlock = () => {
   const [activeButton, setActiveButton] = useState(null);
 
   const handleMouse = (e) => {
     setActiveButton(e.target.value);
   };
+
   return (
     <div className={styles.container}>
       <div className={styles.buttonsBlock} onMouseMove={handleMouse}>
@@ -19,7 +20,7 @@ export const MapBlock = () => {
             value="1"
           >
             КРАСОТА И ЗДОРОВЬЕ
-            <p>7</p>
+            <p>3</p>
           </button>
           <button
             type="button"
@@ -27,7 +28,7 @@ export const MapBlock = () => {
             value="2"
           >
             МАГАЗИНЫ
-            <p>7</p>
+            <p>5</p>
           </button>
           <button
             type="button"
@@ -35,7 +36,7 @@ export const MapBlock = () => {
             value="3"
           >
             ОБУЧЕНИЕ
-            <p>7</p>
+            <p>5</p>
           </button>
           <button
             type="button"
@@ -43,7 +44,7 @@ export const MapBlock = () => {
             value="4"
           >
             ДЕТСАД
-            <p>7</p>
+            <p>3</p>
           </button>
           <button
             type="button"
@@ -51,11 +52,11 @@ export const MapBlock = () => {
             value="5"
           >
             ОТДЫХ, РАЗВЛЕЧЕНИЯ
-            <p>7</p>
+            <p>4</p>
           </button>
         </div>
       </div>
-      <Map activeButton={activeButton} />
+      <MapBlock activeButton={activeButton} />
     </div>
   );
 };
