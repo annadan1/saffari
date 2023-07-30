@@ -42,7 +42,13 @@
     margin-right: 40px;
   }
   @media (max-width: 600px) {
-    gap: 10px;
+    margin-top: 14px;
+    gap: 14px;
+    margin-right: 0;
+  }
+  @media (max-width: 400px) {
+    gap: 14px;
+    justify-content: space-between;
     margin-right: 0;
   }
   & button {
@@ -54,11 +60,14 @@
     font-weight: 400;
     line-height: 20px;
     border: none;
-    width: 232px;
+    width: 236px;
     height: 210px;
     color: $color-neutral-white;
     cursor: pointer;
     padding: 30px 45px;
+    @media (max-width: 1000px) {
+      padding: 20px 25px;
+    }
     @media (max-width: 600px) {
       width: 168px;
       height: 180px;
@@ -70,8 +79,7 @@
 .container__buttons__firstButton {
   background-image: url("../../.././../../public/images/Rectangle.png");
   &:hover {
-    opacity: 0.9;
-    font-size: 18px;
+    opacity: 0.8;
     transition: 0.5s;
   }
 }
@@ -80,8 +88,7 @@
   padding: 0 25px;
   background-image: url("../../.././../../public/images/Rectangle1.png");
   &:hover {
-    opacity: 0.9;
-    font-size: 18px;
+    opacity: 0.8;
     transition: 0.5s;
   }
 }
