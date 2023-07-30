@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/saffari/static/css/main.e5847b60.css",
+    "main.css": "/saffari/static/css/main.869e6bb9.css",
     "main.js": "/saffari/static/js/main.dc8c7213.js",
     "static/media/Rectangle.png": "/saffari/static/media/Rectangle.ad9abf03eaa77c782740.png",
     "static/media/Rectangle1.png": "/saffari/static/media/Rectangle1.4348d632966a65b7e090.png",
     "static/media/Baron Neue.otf": "/saffari/static/media/Baron Neue.7080d2d10e7fe467b90f.otf",
     "static/media/Zaglushka.png": "/saffari/static/media/Zaglushka.e7f16d80d7e34ee92c34.png",
+    "static/media/baby.svg": "/saffari/static/media/baby.ebb909efa1aa0cd9382f.svg",
+    "static/media/cup.svg": "/saffari/static/media/cup.e3f2755a92315a275307.svg",
+    "static/media/cinema.svg": "/saffari/static/media/cinema.9ebecb44b208fb3fa101.svg",
+    "static/media/cart.svg": "/saffari/static/media/cart.5ffb25487106a2b2c7aa.svg",
+    "static/media/mortarboard.svg": "/saffari/static/media/mortarboard.4b7a355fa44cad70aeb8.svg",
+    "static/media/hospital.svg": "/saffari/static/media/hospital.7ed856a0cb5fdd606bff.svg",
+    "static/media/lipstick.svg": "/saffari/static/media/lipstick.b26ef295cbff440bef26.svg",
+    "static/media/saffari.svg": "/saffari/static/media/saffari.e4ad35c05f6491d6ae8c.svg",
     "index.html": "/saffari/index.html",
-    "main.e5847b60.css.map": "/saffari/static/css/main.e5847b60.css.map",
+    "main.869e6bb9.css.map": "/saffari/static/css/main.869e6bb9.css.map",
     "main.dc8c7213.js.map": "/saffari/static/js/main.dc8c7213.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5847b60.css",
+    "static/css/main.869e6bb9.css",
     "static/js/main.dc8c7213.js"
   ]
 }
