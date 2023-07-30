@@ -1,28 +1,47 @@
 import styles from "./MapBlock.module.scss";
 import pins from "../../../../assets/pins.json";
+import { useMap } from "../../../../providers/map-provider";
+import { useRef } from "react";
+import { Mark } from "./Mark/Mark";
 
 export const MapBlock = ({ activeButton }) => {
+  const mapRef = useRef(null);
+
+  const { reactifyYandexApi } = useMap();
+  if (!reactifyYandexApi) return <div />;
+
+  const { api } = reactifyYandexApi;
+  const {
+    YMap,
+    YMapMarker,
+    YMapDefaultSchemeLayer,
+    YMapLayer,
+    YMapDefaultFeaturesLayer,
+  } = api;
+
   return (
     <div className={styles.container}>
-      <div className={styles.container__map}></div>
-      <p className={styles.saffariPin} title="Knightsbridge private park"></p>
-      {pins.map((pin) => {
-        const style = {
-          left: pin.left, 
-          top: pin.top,
-        };
-        const className = `${styles.pin} ${styles[pin.value]} ${
-          pin.group.includes(activeButton) ? styles.activePin : ""
-        }`;
-        return (
-          <p
-            style={style}
-            className={className}
+      <YMap
+        location={{
+          center: [37.53922498324721, 55.74674820587817],
+          zoom: 16,
+        }}
+        ref={mapRef}
+      >
+        <YMapDefaultSchemeLayer />
+        <YMapDefaultFeaturesLayer />
+        <YMapLayer />
+
+        {pins?.map((pin) => (
+          <YMapMarker
+            coordinates={[pin.lat, pin.lng]}
             key={pin.id}
             title={pin.name}
-          ></p>
-        );
-      })}
+          >
+            <Mark pin={pin} activeButton={activeButton} />
+          </YMapMarker>
+        ))}
+      </YMap>
     </div>
   );
 };

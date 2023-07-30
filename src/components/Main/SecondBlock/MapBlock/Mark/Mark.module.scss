@@ -1,0 +1,48 @@
+.pin {
+  width: 60px;
+  height: 70px;
+  background-position: right bottom;
+  &:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+    transition-delay: 0.1s;
+  }
+}
+
+.activePin {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.saffari {
+  background-image: url("../../../../../assets/pins/saffari.png");
+}
+.hospital {
+  background-image: url("../../../../../assets/pins/hospital.png");
+}
+.baby {
+  background-image: url("../../../../../assets/pins/baby.png");
+}
+.cart {
+  background-image: url("../../../../../assets/pins/cart.png");
+}
+.mortarboard {
+  background-image: url("../../../../../assets/pins/mortarboard.png");
+}
+.lipstick {
+  background-image: url("../../../../../assets/pins/lipstick.png");
+}
+.cup {
+  background-image: url("../../../../../assets/pins/cup.png");
+}
+.cinema {
+  background-image: url("../../../../../assets/pins/cinema.png");
+}
+
+.text {
+  background-color: rgb(40, 40, 40);
+  color: white;
+  width: 100px;
+  padding: 2px;
+  font-size: 10px;
+}
