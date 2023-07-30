@@ -42,27 +42,32 @@
     margin-right: 40px;
   }
   @media (max-width: 600px) {
-    gap: 14px;
+    gap: 10px;
     margin-right: 0;
   }
   & button {
     font-family: Lato;
+    display: flex;
+    align-items: flex-end;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
-    text-align: center;
     border: none;
     width: 232px;
     height: 210px;
     color: $color-neutral-white;
     cursor: pointer;
+    padding: 30px 45px;
+    @media (max-width: 600px) {
+      width: 168px;
+      height: 180px;
+      padding: 20px 25px;
+    }
   }
 }
 
 .container__buttons__firstButton {
-  padding: 0 25px;
-  padding-top: 117px;
   background-image: url("../../.././../../public/images/Rectangle.png");
   &:hover {
     opacity: 0.9;
@@ -73,7 +78,6 @@
 
 .container__buttons__secondButton {
   padding: 0 25px;
-  padding-top: 127px;
   background-image: url("../../.././../../public/images/Rectangle1.png");
   &:hover {
     opacity: 0.9;

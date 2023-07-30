@@ -13,6 +13,9 @@
     height: 1031px;
     margin-bottom: 100px;
   }
+  @media (max-width: 450px) {
+    height: 1131px;
+  }
 }
 
 .container__background {
@@ -28,6 +31,9 @@
   }
   @media (max-width: 600px) {
     height: 1031px;
+  }
+  @media (max-width: 450px) {
+    height: 1131px;
   }
 }
 
@@ -100,6 +106,9 @@
     height: 1271px;
   }
   @media (max-width: 600px) {
-    max-height: 1221px;
+    height: 1221px;
+  }
+  @media (max-width: 450px) {
+    height: 1241px;
   }
 }
