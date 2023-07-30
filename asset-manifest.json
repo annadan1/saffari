@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/saffari/static/css/main.e5847b60.css",
+    "main.js": "/saffari/static/js/main.dc8c7213.js",
+    "static/media/Rectangle.png": "/saffari/static/media/Rectangle.ad9abf03eaa77c782740.png",
+    "static/media/Rectangle1.png": "/saffari/static/media/Rectangle1.4348d632966a65b7e090.png",
+    "static/media/Baron Neue.otf": "/saffari/static/media/Baron Neue.7080d2d10e7fe467b90f.otf",
+    "static/media/Zaglushka.png": "/saffari/static/media/Zaglushka.e7f16d80d7e34ee92c34.png",
+    "index.html": "/saffari/index.html",
+    "main.e5847b60.css.map": "/saffari/static/css/main.e5847b60.css.map",
+    "main.dc8c7213.js.map": "/saffari/static/js/main.dc8c7213.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5847b60.css",
+    "static/js/main.dc8c7213.js"
+  ]
+}
