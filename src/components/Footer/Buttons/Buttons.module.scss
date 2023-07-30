@@ -1,18 +1,8 @@
 @import '../../../styles/variables';
 
 .buttons {
-    margin-right: 140px;
-    @media screen and (max-width: 1360px) {
-      margin-right: 120px;
-    }
-    @media screen and (max-width: 1000px) {
-      margin-right: 100px;
-    }
-    @media screen and (max-width: 800px) {
-      margin-right: 60px;
-    }
-    width: 50px;
-    gap: 30.18px;
+    width: 60px;
+    justify-content: space-around;
     display: flex;
     & button {
       height: 16px;

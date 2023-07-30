@@ -2,12 +2,8 @@ import styles from "./Feature.module.scss";
 
 export const Feature = ({ feature }) => {
   const { number, title, text, buttonText } = feature;
-  const style = {
-    minWidth: feature.width,
-    marginRight: feature.right
-  };
   return (
-    <div className={styles.container} style={style}>
+    <div className={styles.container}>
       <div className={styles.number}>{number}</div>
       <div className={styles.content}>
         <p className={styles.title}>{title}</p>

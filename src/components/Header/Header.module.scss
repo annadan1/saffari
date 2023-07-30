@@ -7,18 +7,11 @@ h1 {
   font-size: 36px;
   line-height: 44px;
   width: 527px;
-  & span {
-    display: none;
-    @media screen and (max-width: 1200px) {
-      display: contents;
-    }
-  }
   @media screen and (max-width: 1360px) {
-    margin-left: 100px;
+    margin-left: 80px;
   }
   @media screen and (max-width: 1000px) {
     width: 559px;
-    margin-left: 80px;
   }
   @media screen and (max-width: 800px) {
     margin-left: 40px;

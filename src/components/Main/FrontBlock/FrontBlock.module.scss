@@ -2,12 +2,12 @@
 
 .container {
   height: 494px;
-  margin-bottom: 201px;
+  margin-bottom: 200px;
   @media screen and (max-width: 1360px) {
     gap: 53px;
   }
   @media screen and (max-width: 1200px) {
-    height: 1121px;
+    height: 1271px;
   }
 }
 
@@ -20,7 +20,7 @@
   right: 0;
   z-index: -1;
   @media screen and (max-width: 1200px) {
-    height: 1121px;
+    height: 1271px;
   }
 }
 
@@ -30,17 +30,20 @@
   padding-top: 70px;
   @media screen and (max-width: 1360px) {
     gap: 50px;
-    padding-right: 113px;
+    padding-right: 80px;
   }
   @media screen and (max-width: 1200px) {
     padding-top: 50px;
   }
   @media screen and (max-width: 1000px) {
     gap: 120px;
-    padding-right: 80px;
   }
   @media screen and (max-width: 800px) {
-    gap: 117px;
+    gap: 110px;
     padding-right: 40px;
   }
+}
+
+.show {
+  height: 1361px;
 }

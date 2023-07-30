@@ -4,7 +4,7 @@ import pins from "../../../../assets/pins.json";
 export const Map = ({ activeButton }) => {
   return (
     <div className={styles.map}>
-      <p className={styles.saffariPin}></p>
+      <p className={styles.saffariPin}><span className={styles.textBlock}>Knightsbridge private park</span></p>
       {pins.map((pin) => {
         const style = {
           left: pin.left,

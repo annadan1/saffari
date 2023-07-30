@@ -1,20 +1,20 @@
 @import "../../styles/variables";
 
 footer {
-  margin-top: 160px;
-  margin-left: 117px;
+  margin: 160px 120px 0 120px;
   height: 370px;
-  margin-bottom: 180px;
-  overflow-x: hidden;
+  margin-bottom: 80px;
   @media screen and (max-width: 1360px) {
-    margin-left: 97px;
+    margin-left: 80px;
+    margin-right: 80px;
   }
   @media screen and (max-width: 1000px) {
-    margin-left: 80px;
     margin-top: 120px;
   }
   @media screen and (max-width: 800px) {
     margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
   }
 }
 
@@ -27,6 +27,7 @@ h3 {
   line-height: 44px;
   color: #08131f;
 }
+
 h4 {
   margin-left: 3px;
   margin-bottom: 55px;
@@ -37,6 +38,7 @@ h4 {
   font-weight: 400;
   line-height: 30px;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
