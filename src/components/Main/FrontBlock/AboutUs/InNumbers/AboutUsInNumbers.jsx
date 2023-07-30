@@ -3,7 +3,9 @@ export const AboutUsInNumbers = ({ showContent, setShowContent }) => {
   return (
     <ul className={styles.about}>
       <li>
-        <span className={styles.about__title}>156 - 636 м2</span>
+        <span className={styles.about__title}>
+          156 - 636{" "}<span> м2</span>
+        </span>
         <span className={styles.about__text}>Площадь квартир</span>
       </li>
       <li>
@@ -20,7 +22,9 @@ export const AboutUsInNumbers = ({ showContent, setShowContent }) => {
       </li>
       {showContent && (
         <li>
-          <span className={styles.about__title}>180 - 2048 м2</span>
+          <span className={styles.about__title}>
+            180 - 2048 <span> м2</span>
+          </span>
           <span className={styles.about__text}>Площадь объектов</span>
         </li>
       )}
