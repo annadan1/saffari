@@ -24,7 +24,7 @@ export const MapBlock = ({ activeButton }) => {
       <YMap
         location={{
           center: [37.53922498324721, 55.74674820587817],
-          zoom: 16,
+          zoom: 15,
         }}
         ref={mapRef}
       >

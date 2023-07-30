@@ -36,23 +36,6 @@ export const MapProvider = (props) => {
       {props.children}
     </MountedMapsContext.Provider>
   );
-
-  // return (
-  //   <MountedMapsContext.Provider value={contextValue}>
-  //     <script
-  //       src={props.apiUrl}
-  //       onLoad={async () => {
-  //         const [ymaps3React] = await Promise.all([
-  //           ymaps3.import("@yandex/ymaps3-reactify"),
-  //           ymaps3.ready,
-  //         ]);
-  //         const reactify = ymaps3React.reactify.bindTo(React, ReactDOM);
-  //         setreactifyYandexApi(reactify.module(ymaps3));
-  //       }}
-  //     />
-  //     {props.children}
-  //   </MountedMapsContext.Provider>
-  // );
 };
 
 export const useMap = () => useContext(MountedMapsContext);
