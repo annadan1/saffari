@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/saffari/static/css/main.bc8a7d80.css",
-    "main.js": "/saffari/static/js/main.91b2e2a5.js",
+    "main.css": "/saffari/static/css/main.0656f588.css",
+    "main.js": "/saffari/static/js/main.bac2029e.js",
     "static/media/Rectangle.png": "/saffari/static/media/Rectangle.ad9abf03eaa77c782740.png",
     "static/media/Rectangle1.png": "/saffari/static/media/Rectangle1.4348d632966a65b7e090.png",
     "static/media/Baron Neue.otf": "/saffari/static/media/Baron Neue.7080d2d10e7fe467b90f.otf",
@@ -15,11 +15,11 @@
     "static/media/lipstick.svg": "/saffari/static/media/lipstick.b26ef295cbff440bef26.svg",
     "static/media/saffari.svg": "/saffari/static/media/saffari.e4ad35c05f6491d6ae8c.svg",
     "index.html": "/saffari/index.html",
-    "main.bc8a7d80.css.map": "/saffari/static/css/main.bc8a7d80.css.map",
-    "main.91b2e2a5.js.map": "/saffari/static/js/main.91b2e2a5.js.map"
+    "main.0656f588.css.map": "/saffari/static/css/main.0656f588.css.map",
+    "main.bac2029e.js.map": "/saffari/static/js/main.bac2029e.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc8a7d80.css",
-    "static/js/main.91b2e2a5.js"
+    "static/css/main.0656f588.css",
+    "static/js/main.bac2029e.js"
   ]
 }
