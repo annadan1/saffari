@@ -78,6 +78,7 @@
 
 .container__buttons__firstButton {
   background-image: url("../../.././../../public/images/Rectangle.png");
+  background-size: cover;
   &:hover {
     opacity: 0.8;
     transition: 0.5s;
@@ -87,6 +88,7 @@
 .container__buttons__secondButton {
   padding: 0 25px;
   background-image: url("../../.././../../public/images/Rectangle1.png");
+  background-size: cover;
   &:hover {
     opacity: 0.8;
     transition: 0.5s;
