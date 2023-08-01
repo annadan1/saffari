@@ -10,10 +10,10 @@ export const ButtonsBlock = ({ activeButton, setActiveButton }) => {
   };
 
   return (
-    <div className={styles.buttonsBlock} onMouseMove={handleMouseMove}>
+    <div className={styles.buttons} onMouseMove={handleMouseMove}>
       <button
         type="button"
-        className={activeButton === "1" ? styles.activeButton : null}
+        className={activeButton === "1" ? styles["active-button"] : null}
         value="1"
       >
         КРАСОТА И ЗДОРОВЬЕ
@@ -21,7 +21,7 @@ export const ButtonsBlock = ({ activeButton, setActiveButton }) => {
       </button>
       <button
         type="button"
-        className={activeButton === "2" ? styles.activeButton : null}
+        className={activeButton === "2" ? styles["active-button"] : null}
         value="2"
       >
         МАГАЗИНЫ
@@ -29,7 +29,7 @@ export const ButtonsBlock = ({ activeButton, setActiveButton }) => {
       </button>
       <button
         type="button"
-        className={activeButton === "3" ? styles.activeButton : null}
+        className={activeButton === "3" ? styles["active-button"] : null}
         value="3"
       >
         ОБУЧЕНИЕ
@@ -37,7 +37,7 @@ export const ButtonsBlock = ({ activeButton, setActiveButton }) => {
       </button>
       <button
         type="button"
-        className={activeButton === "4" ? styles.activeButton : null}
+        className={activeButton === "4" ? styles["active-button"] : null}
         value="4"
       >
         ДЕТСАД
@@ -45,7 +45,7 @@ export const ButtonsBlock = ({ activeButton, setActiveButton }) => {
       </button>
       <button
         type="button"
-        className={activeButton === "5" ? styles.activeButton : null}
+        className={activeButton === "5" ? styles["active-button"] : null}
         value="5"
       >
         ОТДЫХ, РАЗВЛЕЧЕНИЯ

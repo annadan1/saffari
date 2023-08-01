@@ -38,7 +38,7 @@
   }
 }
 
-.container__content {
+.content {
   display: flex;
   padding-top: 70px;
   flex-direction: column;
@@ -59,7 +59,7 @@
     padding-top: 40px;
   }
 
-  & .box1 {
+  & .content__box1 {
     display: flex;
     gap: 80px;
     @media screen and (max-width: 1360px) {
@@ -80,7 +80,7 @@
   }
 }
 
-.container__button {
+.content__button {
   margin-top: 40px;
   color: $color-primery-bardo;
   text-align: center;
@@ -101,7 +101,7 @@
   }
 }
 
-.container__show {
+.big-size {
   height: 564px;
   @media screen and (max-width: 1200px) {
     height: 1271px;

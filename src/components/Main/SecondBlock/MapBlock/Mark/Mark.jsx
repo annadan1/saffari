@@ -5,7 +5,7 @@ export const Mark = ({ pin, activeButton }) => {
   const [showText, setShowText] = useState(false);
 
   const className = `${styles.pin} ${styles[pin.logo]} ${
-    pin.group.includes(activeButton) ? styles.activePin : ""
+    pin.group.includes(activeButton) ? styles.active-pin : ""
   }`;
   return (
     <div
@@ -17,7 +17,7 @@ export const Mark = ({ pin, activeButton }) => {
         setShowText(false);
       }}
     >
-      {showText && <p className={styles.text}>{pin.title}</p>}
+      {showText && <p className={styles.title}>{pin.title}</p>}
     </div>
   );
 };

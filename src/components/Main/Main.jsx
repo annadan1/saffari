@@ -4,7 +4,7 @@ import { SecondBlock } from "./SecondBlock/SecondBlock";
 
 export const Main = () => {
   return (
-    <main className={styles.container}>
+    <main className={styles.main}>
       <FrontBlock/>
       <SecondBlock />
     </main>

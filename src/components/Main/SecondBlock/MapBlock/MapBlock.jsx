@@ -20,7 +20,7 @@ export const MapBlock = ({ activeButton }) => {
   } = api;
 
   return (
-    <div className={styles.container}>
+    <div className={styles.map}>
       <YMap
         location={{
           center: [37.53922498324721, 55.74674820587817],

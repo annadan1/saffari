@@ -8,7 +8,7 @@ export const SecondBlock = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.buttonsBlock}>
+      <div className={styles.buttons}>
         <h2>на карте</h2>
         <ButtonsBlock
           activeButton={activeButton}

@@ -14,26 +14,26 @@ export const FrontBlock = () => {
     <div
       className={
         showContent
-          ? styles.container + " " + styles.container__show
+          ? styles.container + " " + styles["big-size"]
           : styles.container
       }
     >
       <div
         className={
           showContent
-            ? styles.container__background + " " + styles.container__show
+            ? styles.container__background + " " + styles["big-size"]
             : styles.container__background
         }
       ></div>
-      <div className={styles.container__content}>
-        <div className={styles.box1}>
+      <div className={styles.content}>
+        <div className={styles.content__box1}>
           <AboutUsInNumbers showContent={showContent} />
           <AboutUs />
         </div>
-        <div className={styles.box2}>
+        <div>
           <button
             type="button"
-            className={styles.container__button}
+            className={styles.content__button}
             onClick={handleClick}
           >
             {showContent ? "Скрыть" : "Узнать подробнее"}
