@@ -18,15 +18,13 @@ export const MapProvider = (props) => {
   useEffect(() => {
     (async () => {
       const { ymaps3 } = window;
-      const [ymaps3React, ymaps3Markers] = await Promise.all([
+      const [ymaps3React] = await Promise.all([
         ymaps3.import("@yandex/ymaps3-reactify"),
-        ymaps3.import("@yandex/ymaps3-markers@0.0.1"),
         ymaps3.ready,
       ]);
       const reactify = ymaps3React.reactify.bindTo(React, ReactDOM);
       setReactifyYandexApi({
         api: reactify.module(ymaps3),
-        markersApi: reactify.module(ymaps3Markers),
       });
     })();
   }, []);
